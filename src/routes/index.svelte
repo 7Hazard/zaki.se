@@ -1,8 +1,8 @@
 <script lang="ts">
-	// import Leo from './leo.svelte';
+	import Leo from './leo.svelte';
 </script>
 
-<!-- <Leo /> -->
+<Leo />
 
 <style>
 </style>
