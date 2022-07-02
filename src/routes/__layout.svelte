@@ -1,24 +1,24 @@
-<script>
-    import "../app.css"
+<script lang="ts">
+	import '../app.css';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
 	let display = false;
 	onMount(() => {
-		display = true;
+		setTimeout(() => {
+			display = true;
+		}, 500);
 	});
 </script>
 
 {#if display}
-	<!-- <Header /> -->
-	<!-- {#key $page} -->
 	<main in:fade>
 		<slot />
 	</main>
-	<!-- {/key} -->
-	<!-- <Footer /> -->
 {/if}
 
 <style>
-    
+	main {
+		height: inherit;
+	}
 </style>

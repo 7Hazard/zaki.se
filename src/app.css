@@ -5,19 +5,13 @@
 
 	--background-color: rgb(0, 106, 177);
 	--title-color: #131313;
-	--text-color: #f3f3f3;
+	--text-color: #e5e5e5;
 }
 
 html,
-body,
-main,
-#svelte {
-	margin: 0px;
-	overflow-x: hidden;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+body {
 	height: 100%;
+	margin: 0;
 
 	background-color: var(--background-color);
 }
