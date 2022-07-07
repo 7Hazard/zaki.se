@@ -1,11 +1,7 @@
-import cloudflare from '@sveltejs/adapter-cloudflare';
-import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-cloudflare';
 
 export default {
-	preprocess: preprocess(),
 	kit: {
-		adapter: cloudflare({
-			// any esbuild options
-		})
+		adapter: adapter()
 	}
 };
