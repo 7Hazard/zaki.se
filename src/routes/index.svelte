@@ -8,7 +8,7 @@
 
 <main>
 	<section>
-		<img style="width: 10rem; height: 10rem;" src="leo.jpg" alt="Leo Zaki" />
+		<img style="width: 10rem; height: 10rem; border-radius: 0.2em;" src="leo.png" alt="Leo Zaki" />
 	</section>
 
 	<section in:slide={{ delay: 1000, duration: 800 }}>
