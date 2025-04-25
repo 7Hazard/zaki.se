@@ -14,7 +14,7 @@
 	<section in:slide={{ delay: 1000, duration: 800 }}>
 		<h1 style="margin: 0.4em 0 0 0;">Leo Zaki</h1>
 		<p style="margin: 1em 0; font-size: 1.1rem; text-align: center;">
-			Software Developer in Malmö
+			Software Engineer in Malmö
 		</p>
 		<a href="mailto:leo@zaki.se">leo@zaki.se</a>
 		<a target="_blank" href="https://github.com/7Hazard">github.com/7Hazard</a>
